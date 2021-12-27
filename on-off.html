@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>
+		Swith On Off
+		</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body style="width:100%;">
+	<script src="javascript.js"></script>
+		<div align="center" >
+			<div  class="background"  align="center" >
+				<div class="vertical-center">
+					Connected to Wifi
+				</div>
+				<div style="width:100%;" class="room">
+					Room Number : 
+					<select class="custom-select">
+						<option value="room1">Room 1</option>
+						<option value="room2">Room 2</option>
+						<option value="room3">Room 3</option>
+					</select>
+					<br>
+					<br>
+					Swith board
+				</div>	
+				<div>
+					<table width="99%" cellspacing="10"cellpadding="10" style="height:450px;">
+						<tr class="bulb-td">
+							<td >
+								<img src="pic_bulboff.gif" class="switch" id="1" onclick="changeImage(1)">
+								Swith 1
+							</td>
+							<td width="34%">
+								<img src="pic_bulboff.gif" class="switch" id="2" onclick="changeImage(2)">
+								Swith 2
+							</td >
+							<td width="34%">
+								<img src="pic_bulboff.gif" class="switch" id="3" onclick="changeImage(3)" >
+								Swith 3
+							</td>
+						<tr class="bulb-td">
+							<td width="33%" >
+								<img src="pic_bulboff.gif" class="switch" id="4" onclick="changeImage(4)" >
+								Swith 4
+							</td>
+							<td width="33%">
+								<img src="pic_bulboff.gif" class="switch" id="5" onclick="changeImage(5)">
+								Swith 5
+							</td >
+							<td width="33%">
+								<img src="pic_bulboff.gif" class="switch" id="6" onclick="changeImage(6)">
+								Swith 6
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+				<div height:"20px" width:"100%" >
+					<a href="add_more_device" class="more-device"> Add more Device </a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
